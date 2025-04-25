@@ -1,24 +1,26 @@
 # 🧠 Cotador Inteligente de Preços
 
-Este é um projeto em Python com interface gráfica para padronizar e consolidar planilhas de preços de diferentes fornecedores.
-Ele automatiza a leitura de arquivos Excel com estruturas diferentes, padroniza colunas e gera um arquivo final unificado com os dados organizados.
+Este é um projeto em Python com interface gráfica para automatizar a comparação de preços entre fornecedores que enviam planilhas com estruturas diferentes,
+ideal para pequenas  empresas que desejam agilizar suas compras e tomar decisões baseadas em dados.
 
 ## 💼 Funcionalidades
 
-- Identifica automaticamente o cabeçalho nas planilhas.
-- Padroniza nomes de colunas como "Produto" e "Preço".
-- Adiciona a empresa com base no nome do arquivo.
-- Gera um único Excel consolidado e ordenado por produto e preço.
+- Interface gráfica simples (Tkinter)
+- Leitura de mútiplas planilhas '.xlsx' com estruturas variadas.
+- Padronização automática de colunas: Produto, Preço, Empresa.
+- Ordenação por nome do produto (A-Z) e pelo menor preço.
+- Exportação de uma nova planilha unificada ('cotacao_organizada.xlsx')
 
 ## 🚀 Como usar
 
 - Instale as dependências: pip install pandas openpyxl
 - Execute o script: python app.py
-- Uma interface gráfica será aberta. Selecione as planilhas e aguarde o resultado final.
+- Uma interface gráfica será aberta. Selecione as planilhas (aceita múltiplas) e aguarde o resultado final.
+  
 
    Tecnologias utilizadas
    
-- Python
+- Python 3.x
 - Pandas
 - Tkinter
 - OpenPyXL
